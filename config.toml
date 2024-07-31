@@ -1,0 +1,37 @@
+baseURL = "https://learningsoftware.netlify.app/"
+languageCode = "es-co"
+title = "Proceso de aprendizaje desarrollo de software"
+theme = "m10c"
+
+pygmentsCodeFences = "true"
+pygmentsStyle = "perldoc"
+
+# If you want to track using GA or use disqus for comments, uncomment the 
+# following and add the correct values
+#googleanalytics = ""
+#disqusShortname = ""
+
+# The settings below are used throughout the theme.
+# Please update!
+[params]
+  title = "mi tesoro"
+  tagline = "gracias señor Jhesus"
+  author = "ney perea"
+  authorImgPath = "/img/author.png"
+  authorBlurb = "ILoveJesus!"
+
+# If you do not want a social icon, just comment it out
+# Please update the example values!
+[social]
+  email = "mailto:example@example.com"
+  facebook = "https://www.facebook.com/example"
+  twitter = "http://twitter.com/example"
+  
+ 
+
+# Set unsafe mode to allow markdownify to work with goldmark
+# This is important. Please do not delete. It is used to re-render markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
