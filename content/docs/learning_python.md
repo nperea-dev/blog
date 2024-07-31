@@ -1,7 +1,7 @@
 ---
 title: "realizar un formulario freecodecamp"
 date: 2023-11-22T05:00:00-00:00
-draft: true
+draft: false
 ---
 # curso de Python en platzi
 
