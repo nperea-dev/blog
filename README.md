@@ -1,1 +1,1 @@
-# repositorio blog para neyperea.me
+# repositorio blog para neyperea.me [![Netlify Status](https://api.netlify.com/api/v1/badges/61bc0f34-0be1-4df2-87ef-6691030dc530/deploy-status)](https://app.netlify.com/sites/learningsoftware/deploys)
