@@ -1,32 +1,63 @@
 baseURL = "https://learningsoftware.netlify.app/"
-languageCode = "es-co"
-title = "Proceso de aprendizaje desarrollo de software"
+languageCode = 'en-us'
+title = 'Learning software blog'
 theme = "m10c"
+#paginate = 8
 
-pygmentsCodeFences = "true"
-pygmentsStyle = "perldoc"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
 
-# If you want to track using GA or use disqus for comments, uncomment the 
-# following and add the correct values
-#googleanalytics = ""
-#disqusShortname = ""
-
-# The settings below are used throughout the theme.
-# Please update!
 [params]
-  title = "mi tesoro"
-  tagline = "gracias señor Jhesus"
-  author = "ney perea"
-  authorImage = "images/tu-avatar.png"
-  authorImgPath = "/images/tu-avatar.png"
-  authorBlurb = "ILoveJesus!"
+  author = "Ney Perea"
+  description = "Tarde o temprano la Disciplina vencerá a la inteligencia"
+  avatar = "coder.png"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/nperea-dev"
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://x.com/nperea_dev"
 
-# If you do not want a social icon, just comment it out
-# Please update the example values!
-[social]
-  email = "mailto:example@example.com"
-  facebook = "https://www.facebook.com/example"
-  twitter = "http://twitter.com/example"
+  # Default theme
+  #[params.style]
+  #  darkestColor = "#242930"
+  #  darkColor = "#353b43"
+  #  lightColor = "#afbac4"
+  #  lightestColor = "#ffffff"
+  #  primaryColor = "#57cc8a"
+
+  Green theme
+  [params.style]
+    darkestColor = "#315659"
+    darkColor = "#253031"
+    lightColor = "#96a879"
+    lightestColor = "#fff"
+    primaryColor = "#dad865"
+
+  # Red theme
+  #[params.style]
+  # darkestColor = "#d35050"
+  #  darkColor = "#212121"
+  # lightColor = "#d6d6d6"
+  #  lightestColor = "#d3d3d3"
+  # primaryColor = "#ffffff"
   
  
 
