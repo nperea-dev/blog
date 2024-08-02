@@ -24,8 +24,8 @@ theme = "m10c"
 [params]
   author = "Ney Perea"
   description = "Tarde o temprano la Disciplina vencerá a la inteligencia"
-  avatar = "coder.png"
-  menu_item_separator = " - "
+  avatar = "avatar.png"
+  # menu_item_separator = " - "
   [[params.social]]
     icon = "github"
     name = "Github"
@@ -43,7 +43,7 @@ theme = "m10c"
   #  lightestColor = "#ffffff"
   #  primaryColor = "#57cc8a"
 
-  Green theme
+  #Green theme
   [params.style]
     darkestColor = "#315659"
     darkColor = "#253031"
