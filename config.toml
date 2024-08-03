@@ -1,5 +1,5 @@
 baseURL = "https://learningsoftware.netlify.app/"
-languageCode = 'en-us'
+languageCode = 'es-co'
 title = 'Learning software blog'
 theme = "m10c"
 #paginate = 8
@@ -24,7 +24,7 @@ theme = "m10c"
 [params]
   author = "Ney Perea"
   description = "Tarde o temprano la Disciplina vencerá a la inteligencia"
-  avatar = "avatar.png"
+  avatar = "/images/avatar.png"
   # menu_item_separator = " - "
   [[params.social]]
     icon = "github"
