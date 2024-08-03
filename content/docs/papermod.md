@@ -6,16 +6,19 @@ draft: false
 
 ## hugo file system
 
-![treeFileStruc.png](img\treeFileStruc.png)
+![treeFileStruc.png](/images/treeFileStruc.png)
+
 ###  content folder
 Post, articles, pages all we work should be store in here.
+
 ###  layout folder
 for theme override, if you want to modify themes layout just copy layout theme´s folder in here then modify.
+
 ### static
 for images and static files
 
 ---
-to add a new content:
+### to adding a new content:
 
 ```
 hugo new posts/newfile.md
@@ -23,19 +26,23 @@ hugo new posts/newfile.md
 ```
 
 
-### markdown sintax
+
 
 ```
 hugo  server
 
 ```
+### markdown sintax to render an image:
+
+in this case you have to save **coverImage.png** in the next path tuProyecto/static/images/coverImage.png
+
 
 ```
-![coverimage](img/coverImage.png)
-```
-
-to render an image the picture should be inside **static** folder
 ![coverimage](/images/coverImage.png)
+```
+
+![coverimage](/images/coverImage.png)
+
 this is an example to link an image to out article in papermod theme.
 
 
