@@ -6,7 +6,7 @@ draft: false
 
 # Sobre Mí
 
-¡Hola! Soy Ney Perea], el creador de este blog. Aquí encontrarás información sobre mí, mis intereses y lo que hago.
+¡Hola! Soy Ney Perea, el creador de este blog. Aquí encontrarás información sobre mí, mis intereses y lo que hago.
 
 ## Mi Historia
 
@@ -23,3 +23,5 @@ Comencé mi viaje en el mundo de la tecnología cuando tenia 8 años y queria ha
 ## Contacto
 
 Puedes contactarme en [nperea75dev](mailto:nperea75dev@gmail.com).
+
+mi sitio web: [neyperea.me](https://neyperea.me)
