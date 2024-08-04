@@ -3,6 +3,9 @@ title: "Github skills   "
 date: 2023-11-14T17:43:56-05:00
 author: "juan de los palotes"
 draft: false
+tags:
+- deploy
+- web
 ---
 
 ## Deploy a site
